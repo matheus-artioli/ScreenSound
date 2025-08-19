@@ -8,10 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62fbb753-a130-4e66-9cf1-ef990e88dfd8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ScreenSound/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ScreenSound/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScreenSound/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ScreenSound/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScreenSound/obj/Debug/net8.0/ScreenSound.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ScreenSound/obj/Debug/net8.0/ScreenSound.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScreenSound/obj/Debug/net8.0/ScreenSound.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ScreenSound/obj/Debug/net8.0/ScreenSound.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenSound/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +95,7 @@
       <workItem from="1755293633445" duration="3000" />
       <workItem from="1755364514151" duration="1449000" />
       <workItem from="1755381323743" duration="1204000" />
+      <workItem from="1755640137584" duration="149000" />
     </task>
     <servers />
   </component>
