@@ -398,6 +398,7 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
-*.idea/.idea.ScreenSound/.idea
+*.idea/
+.idea/
 
 # End of https://www.toptal.com/developers/gitignore/api/csharp
