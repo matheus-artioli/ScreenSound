@@ -1,0 +1,14 @@
+/home/artioli/RiderProjects/ScreenSound/ScreenSound/bin/Debug/net8.0/ScreenSound
+/home/artioli/RiderProjects/ScreenSound/ScreenSound/bin/Debug/net8.0/ScreenSound.deps.json
+/home/artioli/RiderProjects/ScreenSound/ScreenSound/bin/Debug/net8.0/ScreenSound.runtimeconfig.json
+/home/artioli/RiderProjects/ScreenSound/ScreenSound/bin/Debug/net8.0/ScreenSound.dll
+/home/artioli/RiderProjects/ScreenSound/ScreenSound/bin/Debug/net8.0/ScreenSound.pdb
+/home/artioli/RiderProjects/ScreenSound/ScreenSound/obj/Debug/net8.0/ScreenSound.GeneratedMSBuildEditorConfig.editorconfig
+/home/artioli/RiderProjects/ScreenSound/ScreenSound/obj/Debug/net8.0/ScreenSound.AssemblyInfoInputs.cache
+/home/artioli/RiderProjects/ScreenSound/ScreenSound/obj/Debug/net8.0/ScreenSound.AssemblyInfo.cs
+/home/artioli/RiderProjects/ScreenSound/ScreenSound/obj/Debug/net8.0/ScreenSound.csproj.CoreCompileInputs.cache
+/home/artioli/RiderProjects/ScreenSound/ScreenSound/obj/Debug/net8.0/ScreenSound.dll
+/home/artioli/RiderProjects/ScreenSound/ScreenSound/obj/Debug/net8.0/refint/ScreenSound.dll
+/home/artioli/RiderProjects/ScreenSound/ScreenSound/obj/Debug/net8.0/ScreenSound.pdb
+/home/artioli/RiderProjects/ScreenSound/ScreenSound/obj/Debug/net8.0/ScreenSound.genruntimeconfig.cache
+/home/artioli/RiderProjects/ScreenSound/ScreenSound/obj/Debug/net8.0/ref/ScreenSound.dll
