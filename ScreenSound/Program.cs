@@ -1,18 +1,20 @@
 ﻿using ScreenSound;
 
 Musica musica1 = new Musica();
-musica1.nome = "Come are you";
-musica1.artista = "Nirvana";
-Console.WriteLine("******Musica 01************");
-Console.WriteLine($"Nome da música: {musica1.nome}");
-Console.WriteLine($"Nome do artista: {musica1.artista}");
-Console.WriteLine("******Musica 02************");
+musica1.Nome = "Come are you";
+musica1.Artista = "Nirvana";
+musica1.Duracao = 273; 
+musica1.Disponivel = true;
+Console.WriteLine(musica1.DescricaoResumida);
+musica1.ExibirFIchaTecnica();
+
+
 Musica musica2 = new Musica();
-musica2.nome = "Hey, you";
-musica2.artista = "Pink Floyd";
-Console.WriteLine($"Nome da música: {musica2.nome}");
-Console.WriteLine($"Nome do artista: {musica2.artista}");
-Console.WriteLine("****************************");
+musica2.Nome = "Hey, you";
+musica2.Artista = "Pink Floyd";
+musica2.Duracao = 274;
+musica2.Disponivel = false;
+musica2.ExibirFIchaTecnica();
 
 
 
