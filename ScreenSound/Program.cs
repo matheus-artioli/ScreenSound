@@ -1,20 +1,20 @@
 ﻿using ScreenSound;
 
+Album album = new Album();
+album.Nome = "A night at the opera";
+
 Musica musica1 = new Musica();
-musica1.Nome = "Come are you";
-musica1.Artista = "Nirvana";
-musica1.Duracao = 273; 
-musica1.Disponivel = true;
-Console.WriteLine(musica1.DescricaoResumida);
-musica1.ExibirFIchaTecnica();
-
-
+musica1.Nome = "Love of my life";
+musica1.Duracao = 200;
+musica1.Artista = "Barões da Pisadinha";
 Musica musica2 = new Musica();
-musica2.Nome = "Hey, you";
-musica2.Artista = "Pink Floyd";
-musica2.Duracao = 274;
-musica2.Disponivel = false;
-musica2.ExibirFIchaTecnica();
+musica2.Nome = "Bohemian Rapsody"; 
+musica2.Duracao = 200;
+album.AdicionarMusica(musica1);
+album.AdicionarMusica(musica2);
 
-
+Banda queen = new Banda();
+queen.Nome = "Queen";
+queen.AdicionarAlbum(album);
+queen.ExibirDiscografia();
 
