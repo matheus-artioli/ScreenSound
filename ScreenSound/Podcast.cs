@@ -4,8 +4,11 @@ namespace ScreenSound;
 
 public class Podcast
 {
-    public void seila()
-    {
-        Console.WriteLine("sss");
-    }
+    List<Episodio> _episodios = new List<Episodio>();
+    public string Host { get; set; }
+    public string Nome { get; set; }
+    public int TotalEpisodios { get; set; }
+    
+    
+    public void 
 }
