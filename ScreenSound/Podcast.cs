@@ -4,27 +4,29 @@ namespace ScreenSound;
 
 public class Podcast
 {
-    List<Episodio> episodios = new List<Episodio>();
-    public string Host { get; set; }
-    public string Nome { get; set; }
-    public int TotalEpisodios { get; set; }
+    private List<Episodio> episodios = new List<Episodio>();
+    public Podcast(string nome, string host)
+    {
+        Nome = nome;
+        Host = host;
+    }
 
+    public string Nome { get; }
+    public string Host { get; }
+    public int TotalEpisodios => episodios.Count;
 
-    public void AdicionarEpisodio(Episodio episodio)
+    public void AdicionarEpisodios(Episodio episodio)
     {
         episodios.Add(episodio);
     }
 
     public void ExibirDetalhes()
     {
-        foreach (var episodio in episodios)
+        Console.WriteLine($"Podcast {Nome} apresentado por {Host}\n");
+        foreach (Episodio episodio in episodios.OrderBy(e => e.Ordem))
         {
-            Console.WriteLine("**************PODCAST****************");
-            Console.WriteLine($"Nome: {episodio.Titulo}");
-            Console.WriteLine($"Resumo: {episodio.Resumo}");
-            Console.WriteLine($"Ordem: {episodio.Ordem}");
-            Console.WriteLine($"Duração: {episodio.Duracao}");
-            Console.WriteLine("*************************************");
+            Console.WriteLine(episodio.Resumo);
         }
+        Console.WriteLine($"\n\nEsse podcast possui {TotalEpisodios} episodios.");
     }
 }
