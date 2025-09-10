@@ -18,3 +18,21 @@ queen.Nome = "Queen";
 queen.AdicionarAlbum(album);
 queen.ExibirDiscografia();
 
+Episodio episodio1 = new Episodio();
+episodio1.Titulo = "Arrozzz";
+episodio1.Resumo = "batata";
+episodio1.Ordem = 12;
+episodio1.Duracao = 200;
+
+
+Episodio episodio2 = new Episodio();
+episodio2.Titulo = "Parmegiana";
+episodio2.Resumo = "fritas";
+episodio2.Ordem = 12;
+episodio2.Duracao = 200;
+
+Podcast podcast = new Podcast();
+podcast.AdicionarEpisodio(episodio1);
+podcast.AdicionarEpisodio(episodio2);
+podcast.ExibirDetalhes();
+
